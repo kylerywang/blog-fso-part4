@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IndpejU1NSIsImlkIjoiNjRkYmY1ZmM1MGU2MDJmMGE2MDM1Y2I2IiwiaWF0IjoxNjkyMTM5OTUyfQ.05FNe6oxSHcCKLyIsYeQfjZJfdG4QM4SCn7vFw3Le2M
+
+{
+  "title": "My Big Soccer Game",
+  "author": "Kyler Wang",
+  "url": "big-soccer-game",
+  "likes": 35
+}
